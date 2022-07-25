@@ -1,0 +1,281 @@
+/*폰트서체
+font-family: 'EB Garamond', serif;
+font-family: 'Kantumruy Pro', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Russo One', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    min-width: 1350px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111
+}
+
+/*header*/
+#header {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    padding: 30px 0;
+}
+
+#gnb {
+    float: right;
+    padding-top: 25px;
+}
+
+#gnb>li {
+    float: left;
+    padding: 50px;
+}
+
+#s_banner img {
+    width: 100%;
+
+}
+
+#story {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#story h2 {
+    text-align: center;
+    color: #631b1b;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: 'Cafe24Ssurround';
+    font-size: 40px;
+    line-height: 50px;
+}
+
+
+.text {
+    float: left;
+}
+
+.text h3 {
+    color: #3c487e;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+
+.b_text {
+    font-size: 27px;
+    line-height: 50px;
+    padding: 52px 0;
+}
+
+
+.b_img {
+    float: right;
+}
+
+
+
+
+.story_text {
+    font-size: 35px;
+    line-height: 50px;
+    float: left;
+    padding: 44px 0;
+}
+
+.box1 {
+    color: #563815;
+}
+
+.box2 {
+    color: #b68245;
+}
+
+.box3 {
+    color: #f36e58;
+}
+
+.s_img {
+    float: right;
+    padding: 40px 0;
+}
+
+#brand {
+    background-color: #f9eed4;
+    width: 1320px;
+    margin: 0 auto;
+
+}
+
+.text_sub {
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 37px;
+    text-align: center;
+}
+
+.brand_img {
+    width: 555px;
+    float: left;
+    padding: 78px 41px;
+
+}
+
+
+.brand_text {
+    float: right;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 48px 0;
+    text-align: center;
+
+}
+
+
+.brand_text2 {
+    float: left;
+    box-sizing: border-box;
+    padding: 54px 46px;
+    width: 50%;
+    text-align: center;
+
+}
+
+.brand_img2 {
+
+    width: 550px;
+    float: right;
+    padding: 28px 54px;
+
+
+}
+
+.brand_img3 {
+    width: 560px;
+    float: left;
+    padding: 41px 49px;
+
+
+
+}
+
+.brand_text3 {
+    float: right;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 30px 0;
+    text-align: center;
+
+}
+
+.brand_text p {
+    font-size: 25px;
+    padding: 28px 0;
+    line-height: 51px;
+}
+
+.brand_text2 p {
+    font-size: 25px;
+    padding: 28px 0;
+    line-height: 51px;
+}
+
+.brand_text3 p {
+    font-size: 25px;
+    padding: 28px 0;
+    line-height: 51px;
+}
+
+#system {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#system ul {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.s_con {
+    padding: 0 20px;
+}
+
+
+#system ul li {
+    float: left;
+    text-align: center;
+}
+
+#system h1 {
+    text-align: center;
+    line-height: 36px;
+    padding: 20px 0;
+}
+
+#footer {
+    background-color: #f4d0bc;
+    height: 298px;
+
+}
+
+#footer_inner {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#f_logo {
+    float: left;
+    padding: 30px 0;
+
+}
+
+
+
+
+.f_left>li {
+    float: left;
+    padding: 54px 60px;
+}
+
+
+.f_text {
+    text-align: left;
+    padding: 0 177px;
+
+
+}
+
+.icon {
+    float: right;
+}
+
+.icon li {
+    float: left;
+    padding: 20px 5px 0;
+}
